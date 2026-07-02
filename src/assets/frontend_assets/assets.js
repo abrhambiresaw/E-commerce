@@ -112,7 +112,7 @@ export const products = [
     },
     {
         _id: "aaaab",
-        name: "Men Green Tibeb Trim Habesha Shirt",
+        name: "woman Green Tibeb Trim Habesha Shirt",
         description: "A handcrafted Habesha shirt for men, woven from pure cotton and detailed with traditional Tibeb embroidery along the collar and front placket. Perfect for cultural celebrations, holidays, and special occasions.",
         price: 200,
         image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
