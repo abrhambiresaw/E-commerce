@@ -213,7 +213,7 @@ export const products = [
         price: 110,
         image: [p_img10],
         category: "Men",
-        subCategory: "Topwear",
+        subCategory: "Full Suit",
         sizes: ["S", "L", "XL"],
         date: 1716622235448,
         bestseller: false
@@ -321,7 +321,7 @@ export const products = [
         price: 160,
         image: [p_img19],
         category: "Kids",
-        subCategory: "Topwear",
+        subCategory: "Full Suit",
         sizes: ["S", "M", "L", "XL"],
         date: 1716632145448,
         bestseller: false
@@ -369,7 +369,7 @@ export const products = [
         price: 180,
         image: [p_img23],
         category: "Kids",
-        subCategory: "Topwear",
+        subCategory: "Full Suit",
         sizes: ["S", "M", "L", "XL"],
         date: 1716636545448,
         bestseller: false
@@ -381,19 +381,19 @@ export const products = [
         price: 210,
         image: [p_img24],
         category: "Kids",
-        subCategory: "Topwear",
+        subCategory: "Full Suit",
         sizes: ["S", "M", "L", "XL"],
         date: 1716637645448,
         bestseller: false
     },
     {
         _id: "aaaay",
-        name: "Girls Tibeb Embroidered Habesha Top",
+        name: "Girls Tibeb Embroidered Habesha dress",
         description: "A charming traditional Habesha top for kids, decorated with colorful Tibeb embroidery. Lightweight and comfortable, perfect for cultural events and holiday celebrations.",
         price: 190,
         image: [p_img25],
         category: "Kids",
-        subCategory: "Topwear",
+        subCategory: "Full Dress",
         sizes: ["S", "M", "L", "XL"],
         date: 1716638745448,
         bestseller: false
@@ -453,7 +453,7 @@ export const products = [
         price: 240,
         image: [p_img30],
         category: "Kids",
-        subCategory: "Topwear",
+        subCategory: "Full Dress",
         sizes: ["S", "M", "L", "XL"],
         date: 1716644245448,
         bestseller: false
@@ -465,7 +465,7 @@ export const products = [
         price: 220,
         image: [p_img31],
         category: "Men",
-        subCategory: "Topwear",
+        subCategory: "Full Suit",
         sizes: ["S", "M", "L", "XL"],
         date: 1716645345448,
         bestseller: false
@@ -477,7 +477,7 @@ export const products = [
         price: 250,
         image: [p_img32],
         category: "Men",
-        subCategory: "Topwear",
+        subCategory: "Full Suit",
         sizes: ["S", "M", "L", "XL"],
         date: 1716646445448,
         bestseller: false
@@ -549,7 +549,7 @@ export const products = [
         price: 280,
         image: [p_img38],
         category: "Kids",
-        subCategory: "Topwear",
+        subCategory: "Full Suit",
         sizes: ["S", "M", "L", "XL"],
         date: 1716653045448,
         bestseller: false
@@ -561,7 +561,7 @@ export const products = [
         price: 260,
         image: [p_img39],
         category: "Men",
-        subCategory: "Topwear",
+        subCategory: "Full Suit",
         sizes: ["S", "M", "L", "XL"],
         date: 1716654145448,
         bestseller: false
@@ -585,7 +585,7 @@ export const products = [
         price: 270,
         image: [p_img41],
         category: "Men",
-        subCategory: "Full Dress",
+        subCategory: "Full Suit",
         sizes: ["S", "M", "L", "XL"],
         date: 1716656345448,
         bestseller: false
@@ -597,7 +597,7 @@ export const products = [
         price: 300,
         image: [p_img42],
         category: "Kids",
-        subCategory: "Topwear",
+        subCategory: "Full Suit",
         sizes: ["S", "M", "L", "XL"],
         date: 1716657445448,
         bestseller: false
@@ -633,7 +633,7 @@ export const products = [
         price: 290,
         image: [p_img45],
         category: "Men",
-        subCategory: "Topwear",
+        subCategory: "Full Suit",
         sizes: ["S", "M", "L", "XL"],
         date: 1716660745448,
         bestseller: false
@@ -645,7 +645,7 @@ export const products = [
         price: 320,
         image: [p_img46],
         category: "Men",
-        subCategory: "Topwear",
+        subCategory: "Full Suit",
         sizes: ["S", "M", "L", "XL"],
         date: 1716661845448,
         bestseller: false
@@ -669,7 +669,7 @@ export const products = [
         price: 330,
         image: [p_img48],
         category: "Men",
-        subCategory: "Topwear",
+        subCategory: "Full Suit",
         sizes: ["S", "M", "L", "XL"],
         date: 1716664045448,
         bestseller: false
@@ -716,7 +716,7 @@ export const products = [
         price: 350,
         image: [p_img52],
         category: "Men",
-        subCategory: "Topwear",
+        subCategory: "Full Suit",
         sizes: ["S", "M", "L", "XL"],
         date: 1716668445448,
         bestseller: false
