@@ -484,7 +484,7 @@ export const products = [
     },
     {
         _id: "aaabg",
-        name: "Boys Feather Pattern Embroidered Habesha T-Shirt",
+        name: "Girls Feather Pattern Embroidered Habesha T-Shirt",
         description: "A charming traditional Habesha top for kids, decorated with colorful Tibeb embroidery. Lightweight and comfortable, perfect for cultural events and holiday celebrations.",
         price: 230,
         image: [p_img33],
