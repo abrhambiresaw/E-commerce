@@ -63,6 +63,7 @@ function Collection() {
         break;
       default:
         applyFilter();
+        break;
     }
   }
 
@@ -72,7 +73,7 @@ function Collection() {
 
   useEffect(() =>{
    sortProduct();
-  },[sortType, filterProducts]);
+  },[sortType]);
 
   return (
     <div className="flex flex-col sm:flex-row gap-1 sm:gap-10 pt-10 border-t">
