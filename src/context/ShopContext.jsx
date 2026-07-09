@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import { products } from "../assets/frontend_assets/assets";
-import { toast } from 'react-toastify'
+import { toast } from "react-toastify";
+import Product from "../pages/Product";
 
 export const ShopContext = createContext();
 
@@ -12,7 +13,6 @@ function ShopContextProvider(props) {
   const [cartItems, setCartItems] = useState({});
 
   const addToCart = (itemId, size) => {
-    
     if (!size) {
       toast.error("Please select a size");
       return;
@@ -32,29 +32,47 @@ function ShopContextProvider(props) {
     }
 
     setCartItems(cartData);
-    toast.success('Added to cart!');
+    toast.success("Added to cart!");
   };
 
   const getCartCount = () => {
-  let totalCount = 0;
+    let totalCount = 0;
 
-  for (const productId in cartItems) {
-    for (const size in cartItems[productId]) {
-      totalCount += cartItems[productId][size];
+    for (const productId in cartItems) {
+      for (const size in cartItems[productId]) {
+        totalCount += cartItems[productId][size];
+      }
     }
-  }
 
-  return totalCount;
-};
+    return totalCount;
+  };
 
-const updateQuantity = async (itemId, size, quantity) => {
-  let cartData = structuredClone(cartItems)
+  const updateQuantity = async (itemId, size, quantity) => {
+    let cartData = structuredClone(cartItems);
 
-  cartData[itemId][size] = quantity;
+    cartData[itemId][size] = quantity;
 
-  setCartItems(cartData);
-}
+    setCartItems(cartData);
+  };
 
+  const getCartAmount = () => {
+    let totalAmount = 0;
+
+    for (const productId in cartItems) {
+      const productInfo = products.find((product) => product._id === productId);
+
+      if (!productInfo) continue;
+
+      for (const size in cartItems[productId]) {
+        const quantity = cartItems[productId][size];
+        if (quantity > 0) {
+          totalAmount += productInfo.price * quantity;
+        }
+      }
+    }
+
+    return totalAmount;
+  };
 
   const value = {
     products,
@@ -67,7 +85,8 @@ const updateQuantity = async (itemId, size, quantity) => {
     addToCart,
     cartItems,
     getCartCount,
-    updateQuantity
+    updateQuantity,
+    getCartAmount,
   };
 
   return (
