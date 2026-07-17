@@ -100,7 +100,7 @@ export const assets = {
 export const products = [
     {
         _id: "aaaaa",
-        name: "Women Tibeb-Embroidered Ruffle Sleeve Habesha Gown",
+        name: "Women Tibeb-Embroidered Ruffle Sleeve Habesha dress",
         description: "A stunning full-length traditional Habesha dress, handwoven with intricate Tibeb patterns along the hem, sleeves, and bodice. Flowing and elegant, perfect for weddings, holidays, and cultural ceremonies.",
         price: 100,
         image: [p_img1],
@@ -112,8 +112,8 @@ export const products = [
     },
     {
         _id: "aaaab",
-        name: "woman Green Tibeb Trim Habesha Shirt",
-        description: "A handcrafted Habesha shirt for men, woven from pure cotton and detailed with traditional Tibeb embroidery along the collar and front placket. Perfect for cultural celebrations, holidays, and special occasions.",
+        name: "woman Green Tibeb Trim Habesha dress",
+        description: "A handcrafted Habesha dress, woven from pure cotton and detailed with traditional Tibeb embroidery along the collar and front placket. Perfect for cultural celebrations, holidays, and special occasions.",
         price: 200,
         image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
         category: "Women",
@@ -148,7 +148,7 @@ export const products = [
     },
     {
         _id: "aaaae",
-        name: "Women Blue Tibeb Border Habesha Gown",
+        name: "Women Blue Tibeb Border Habesha dress",
         description: "A stunning full-length traditional Habesha dress, handwoven with intricate Tibeb patterns along the hem, sleeves, and bodice. Flowing and elegant, perfect for weddings, holidays, and cultural ceremonies.",
         price: 130,
         image: [p_img5],
@@ -340,7 +340,7 @@ export const products = [
     },
     {
         _id: "aaaau",
-        name: "Women Red Medallion Tibeb Habesha Gown",
+        name: "Women Red Medallion Tibeb Habesha dress",
         description: "A stunning full-length traditional Habesha dress, handwoven with intricate Tibeb patterns along the hem, sleeves, and bodice. Flowing and elegant, perfect for weddings, holidays, and cultural ceremonies.",
         price: 170,
         image: [p_img21],
@@ -436,7 +436,7 @@ export const products = [
     },
     {
         _id: "aaabc",
-        name: "Women Multicolor Tibeb Embroidered Habesha Gown",
+        name: "Women Multicolor Tibeb Embroidered Habesha dress",
         description: "A stunning full-length traditional Habesha dress, handwoven with intricate Tibeb patterns along the hem, sleeves, and bodice. Flowing and elegant, perfect for weddings, holidays, and cultural ceremonies.",
         price: 210,
         image: [p_img29],
@@ -520,7 +520,7 @@ export const products = [
     },
     {
         _id: "aaabj",
-        name: "Women Tibeb Trim Relaxed Fit Habesha Cape",
+        name: "Women Tibeb Trim Relaxed Fit Habesha dress",
         description: "A stunning full-length traditional Habesha dress, handwoven with intricate Tibeb patterns along the hem, sleeves, and bodice. Flowing and elegant, perfect for weddings, holidays, and cultural ceremonies.",
         price: 270,
         image: [p_img36],
@@ -532,7 +532,7 @@ export const products = [
     },
     {
         _id: "aaabk",
-        name: "Women Two-Tone Tibeb Border Habesha Gown",
+        name: "Women Two-Tone Tibeb Border Habesha dress",
         description: "A stunning full-length traditional Habesha dress, handwoven with intricate Tibeb patterns along the hem, sleeves, and bodice. Flowing and elegant, perfect for weddings, holidays, and cultural ceremonies.",
         price: 250,
         image: [p_img37],
@@ -652,7 +652,7 @@ export const products = [
     },
     {
         _id: "aaabu",
-        name: "Women Gold Tibeb Border Habesha Gown",
+        name: "Women Gold Tibeb Border Habesha dress",
         description: "An adorable traditional Habesha full dress for kids, complete with handwoven Tibeb patterns. Soft, comfortable, and perfect for cultural celebrations and holidays.",
         price: 300,
         image: [p_img47],
@@ -676,7 +676,7 @@ export const products = [
     },
     {
         _id: "aaabw",
-        name: "Women Red Tibeb Border Habesha Gown",
+        name: "Women Red Tibeb Border Habesha dress",
         description: "An adorable traditional Habesha full dress for kids, complete with handwoven Tibeb patterns. Soft, comfortable, and perfect for cultural celebrations and holidays.",
         price: 310,
         image: [p_img49],
@@ -688,7 +688,7 @@ export const products = [
     },
     {
         _id: "aaabx",
-        name: "Women Tibeb Embroidered Hooded Habesha Cape Dress",
+        name: "Women Tibeb Embroidered Hooded Habesha Dress",
         description: "An adorable traditional Habesha full dress for kids, complete with handwoven Tibeb patterns. Soft, comfortable, and perfect for cultural celebrations and holidays.",
         price: 340,
         image: [p_img50],
@@ -699,7 +699,7 @@ export const products = [
     },
     {
         _id: "aaaby",
-        name: "Women Tibeb Embroidered Habesha Dress with Fringe Sash",
+        name: "Women Tibeb Embroidered Habesha Dress",
         description: "A stunning full-length traditional Habesha dress, handwoven with intricate Tibeb patterns along the hem, sleeves, and bodice. Flowing and elegant, perfect for weddings, holidays, and cultural ceremonies.",
         price: 320,
         image: [p_img51],
