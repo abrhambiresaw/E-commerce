@@ -8,8 +8,13 @@ a.active hr{
 
 *{
   font-family: Outfit;
-   overflow-x: hidden;
+   
 }
+
+body{
+  overflow-x: hidden;
+}
+
 .prata-regular {
   font-family: "Prata", serif;
   font-weight: 400;
