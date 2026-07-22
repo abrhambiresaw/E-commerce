@@ -153,7 +153,8 @@ function ShopContextProvider(props) {
     getCartAmount,
     navigate,
     backendUrl,
-    token, setToken
+    token, setToken,
+    setCartItems
   };
 
   return (
